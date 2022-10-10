@@ -4,7 +4,7 @@
     width: 100vw;
     height: 33vh;
     position: relative;
-    margin-top: 60px;
+    margin-top: 3.5rem;
 }
 
 #product-overview h1 {
@@ -164,7 +164,7 @@
 
 
 
-@media (min-width: 640px) {
+@media (min-width: 640px) and (min-height: 640px) {
 
     #product-overview {
         height: 40vh;
@@ -175,15 +175,17 @@
         font-size: 3rem;
     }
 
+
+}
+
+@media (min-width: 640px) {
+
     .key-feature {
         display: inline-block;
         width: 30%;
         vertical-align: top;
         max-width: 400px;
     }
-}
-
-@media (min-width: 640px) {
 
     .plan__list {
         width: 100%;
