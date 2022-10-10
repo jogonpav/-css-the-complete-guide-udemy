@@ -1,3 +1,7 @@
+main {
+    padding-top: 40px;
+}
+
 .testimonial {
     font-size: 1.25rem;
 
@@ -7,10 +11,6 @@
     width: 80%;
     margin: auto;
 } */
-
-.testimonial:first-of-type {
-    margin-top: 96px;
-}
 
 .testimonial__image-container {
     width: 100%;

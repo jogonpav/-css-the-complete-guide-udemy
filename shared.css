@@ -11,6 +11,11 @@ body::-webkit-scrollbar {
     width: 0
 }
 
+main {
+    min-height: calc(100vh - 56px - 128px);
+    margin-top: 56px;
+}
+
 .backdrop {
     position: fixed;
     display: none;

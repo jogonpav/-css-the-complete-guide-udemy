@@ -1,5 +1,7 @@
 main {
     padding-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .background {
@@ -97,7 +99,6 @@ main {
 @media (min-width: 640px) {
     main {
         max-width: 1500px;
-        margin: 48px auto;
     }
 }
 
